@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>PomoBoost</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dosis&family=Karla&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="upper">
+            <h1>PomoBoost</h1>
+        </div>
+
+        <div class="display">
+            <section class="timer">
+                <section class="timer-options">
+                    <p id="pomo" class="option not-selected">Pomodoro</p>
+                    <p id="break" class="option not-selected">Break</p>
+                </section>
+                <section class="time">
+                    <span id="minutes"></span>
+                    <span>:</span>
+                    <span id="seconds"></span>
+                </section>
+                <button id="start" class="btn"><span>Start </span></button>
+                <button id="pause" class="btn hidden"><span>Pause </span></button>
+            </section>
+
+            <section class="tasks">
+                <form action="todos/createTodo" method="POST">
+                    <input type="text" placeholder="What are you working on?" name="todoItem">
+                    <input type="submit" class="btn">
+                </form>
+
+                <ol>
+                <% todos.forEach(el => { %>
+                    <li class='todoItem' data-id='<%=el._id%>'>
+                        <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
+                        <span class='fa-solid fa-check'> </span>
+                    </li>
+                <% }) %>    
+                </ol>
+            
+                <h3>Completed tasks: <%= completed %> / <%= total %></h3>
+
+                <a href="/logout">Logout</a>
+            </section>
+
+            
+
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
