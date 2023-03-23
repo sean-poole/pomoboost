@@ -11,7 +11,7 @@ Personalized, interactive to-do list with a pomodoro timer to keep you on track.
 
 **Tech Used: JavaScript, Node, Express, React, Mongoose, MongoDB, Passport
 
-The website provides users with the ability to create an account and maintain a personal list of tasks to complete. It features a Pomodoro timer, enabling users to switch between work and break times. Users can mark tasks as complete and remove them from the list.
+The site provides users with the ability to create an account and maintain a personal list of tasks to complete. It features a Pomodoro timer, enabling users to switch between work and break times. Users can mark tasks as complete and remove them from the list.
 
 
 ## 💡 Optimization: 
