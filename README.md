@@ -3,7 +3,7 @@
 Pomodoro Timer with an interactive To-do list to keep you on track.
 
 <p align="center">
-<img src="https://github.com/sean-poole/pomoboost/blob/main/preview/pomoboost-preview.gif">
+<img src="https://github.com/sean-poole/pomoboost/blob/main/preview/pomoboost-preview.gif" width="100%" alt="PomoBoost">
 </p>
 
 
