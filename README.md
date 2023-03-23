@@ -16,7 +16,7 @@ The website provides users with the ability to create an account and maintain a 
 
 ## Optimization: 
 
-Prevent the timer from resetting when a PUT request is made to the server by storing its values in a separate collection with a user identifier. <br />
+Prevent the timer from resetting when a PUT request is made to the server by moving its values from localStorage to a separate collection in the database with a user identifier. <br />
 Refactor the UI for a cleaner look.
 
 
