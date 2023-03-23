@@ -1,6 +1,6 @@
 # PomoBoost | <a href="https://rich-gold-peacock-veil.cyclic.app" target="_blank">Visit Here</a>
 
-Pomodoro Timer with an interactive To-do list to keep you on track.
+Personalized, interactive to-do list with a pomodoro timer to keep you on track.
 
 <p align="center">
 <img src="https://github.com/sean-poole/pomoboost/blob/main/preview/pomoboost-preview.gif" width="100%" alt="PomoBoost">
